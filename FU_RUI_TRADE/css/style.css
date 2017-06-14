@@ -1,0 +1,664 @@
+/*首页*/
+
+.navbar-default {
+	background: transparent;
+	padding: .3rem 0;
+}
+
+.logo {
+	width: 2rem;
+}
+
+.logo>img {
+	height: 50px;
+}
+
+.main div {
+	margin-bottom: .5rem;
+	clear: both;
+}
+
+.banner {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner>ul {
+	width: 100%;
+	position: relative;
+	
+}
+
+.banner>ul>li {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+
+.banner>ul>li:first-of-type {
+	display: block;
+}
+
+.banner>ul>li>img {
+	width: 100%;
+}
+
+.banner>ol {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.banner>ol>li {
+	width: .4rem;
+	height: .4rem;
+	background: rgba(0, 0, 0, .5);
+	float: left;
+	border-radius: 50%;
+	margin: 0 .05rem;
+	position: relative;
+	transition: all .5s;
+}
+
+.banner>ol>li:first-of-type {
+	background: green;
+}
+
+.frler {
+	width: 100%;
+	margin-bottom: 1rem;
+	padding-top: .2rem;
+}
+
+.frler .line {
+	height: 2px;
+	background: #91b5a0;
+	border-radius: 2px;
+	box-shadow: 0px 5px 20px #ccc;
+	margin-bottom: .6rem;
+	margin-top: .5rem;
+}
+
+.frler .frler-title {
+	text-align: center;
+	font-size: .4rem;
+	color: #008e3b;
+	margin-bottom: 0;
+	line-height: .5rem;
+}
+
+.frler .frler-title-english {
+	text-align: center;
+	font-size: .25rem;
+	color: #91b5a0;
+}
+
+.frler .frler-content {
+	width: 100%;
+}
+
+.frler .frler-content .frler-second-title {
+	font-size: .35rem;
+	color: #008e3d;
+	text-indent: 3em;
+	margin-top: 1rem;
+}
+
+.frler .frler-content .frler-second-title>span {
+	margin-right: .2rem;
+	font-size: .25rem;
+}
+
+.frler .frler-content img {
+	width: 80%;
+	display: block;
+	margin: .6rem auto;
+	border-radius: 5px;
+	transition: box-shadow .5s;
+	position: relative;
+}
+
+.frler .frler-content img:hover {
+	box-shadow: 2px 2px 1rem #91b5a0;
+}
+
+.frler .frler-content .frler-introduction {
+	text-indent: .5rem;
+	font-size: .28rem;
+	color: #333;
+	letter-spacing: .01rem;
+	width: 80%;
+	margin: 0 auto .5rem;
+}
+
+.frler .frler-content .flex-layout {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	margin: 0 .2rem;
+}
+
+.frler .flex {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+.frler .frler-content .flex-layout>p {
+	font-size: .25rem;
+	margin-top: .25rem;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	color: #555;
+}
+
+.frler .frler-content .flex-layout>h3 {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: .5rem;
+	font-weight: 500;
+	color: #333;
+}
+
+.frler .frler-content .flex-layout .circle-content {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	border: .04rem solid rgba(0, 163, 68, .5);
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+
+.frler .frler-content .circle-content>span {
+	font-family: frler-icon;
+	color: rgba(0, 163, 68, .5);
+	font-size: 1.2rem;
+}
+
+.frler .frler-team-banner {
+	width: 100%;
+	overflow: hidden;
+	padding: 1rem 0;
+}
+
+.frler .frler-team-banner>ul {
+	overflow: hidden;
+	position: relative;
+}
+
+.frler .frler-team-banner>ul>li {
+	float: left;
+	margin-right: 1rem;
+}
+
+.frler .frler-team-banner>ul>li >img{
+	width: 5.5rem;
+}
+
+
+
+.main .contact {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	font-size: .2rem;
+	padding: .5rem 0;
+}
+
+.main .contact>div {
+	flex: 1;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	color: #333;
+	align-items: center;
+}
+
+.main .contact>div>h4 {
+	font-size: .3rem;
+	font-weight: 600;
+}
+
+.main .contact>div>span {
+	font-size: .23rem;
+	margin: .1rem 0;
+}
+
+.main .contact>div:last-of-type>img {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #eee;
+	position: relative;
+	transition: all .5s;
+}
+
+.main .contact>div:last-of-type>img:hover {
+	transform: scale(1.01);
+}
+
+.main .contact .contact-title {
+	font-weight: 600;
+}
+
+.footer .copyright {
+	font-size: .23rem;
+	margin-top: .5rem;
+	color: #aaa;
+}
+
+.footer {
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #008e3b;
+}
+
+i {
+	font-size: .2rem;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.tright {
+	text-align: right;
+}
+
+.tcenter {
+	text-align: center;
+	letter-spacing: .05rem;
+}
+
+.tindent {
+	text-indent: 2em;
+}
+
+
+/*二级页面*/
+
+.main .second-banner {
+	position: relative;
+	width: 100%;
+}
+
+.main .second-banner .second-banner-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	overflow: hidden;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main .second-banner .second-banner-cover>h2 {
+	font-size: .5rem;
+}
+
+.main .second-banner .second-banner-cover>p {
+	font-size: .25rem;
+}
+
+.main .second-content {
+	width: 80%;
+	margin-top: 1.5rem;
+	background: #fff;
+	box-shadow: 5px 5px 50px #eee;
+	padding: 1rem 2rem;
+}
+
+.main .second-list-content {
+	margin: .25rem 0;
+}
+
+.main .second-list-content>i {
+	font-family: icon;
+	font-size: .3rem;
+	vertical-align: middle;
+}
+
+.main .second-list-content>i {
+	margin-right: .2rem;
+	color: rgba(0, 0, 255, .5);
+}
+
+.main .second-list-content>a {
+	color: #333;
+	font-size: .28rem;
+	display: inline-block;
+	width: 60%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.main .second-list-content>a:hover {
+	text-decoration: none;
+	color: rgba(0, 0, 255, .5);
+}
+
+.main .second-list-content>span {
+	float: right;
+	color: #aaa;
+	font-size: .23rem;
+}
+
+.main #content-show {
+	display: none;
+}
+
+.main #content-show .content-show-title {
+	margin-bottom: .45rem;
+	color: #333;
+	border-bottom: 1px dashed rgba(0, 0, 150, .2);
+	padding-bottom: .3rem;
+}
+
+.main #content-show .content-show-title>h3 {
+	font-size: .4rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	letter-spacing: 0;
+	color: #333;
+}
+
+.main #content-show .content-show-title>p {
+	font-size: .22rem;
+	letter-spacing: 0;
+	color: #aaa;
+}
+
+.main #content-show .show-jobs .job-get {
+	font-size: .25rem;
+	padding: .1rem .2rem;
+	background: rgba(0, 0, 255, .4);
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	margin: 0 .05rem;
+}
+
+.main #content-show .show-jobs .job-get:hover {
+	background: #EC971F;
+}
+
+.main #content-show .show-jobs .job-msg {
+	margin: 1rem 0;
+}
+
+.main #content-show .show-jobs .job-msg>h4 {
+	font-size: .3rem;
+	color: #666;
+	margin-bottom: .5rem;
+}
+
+.main #content-show .show-jobs .job-msg>li {
+	font-size: .25rem;
+	list-style: square;
+	color: #333;
+	font-size: .25rem;
+	margin: .2rem 0;
+}
+
+.main #content-show .show-news>p {
+	font-size: .25rem;
+	line-height: .5rem;
+	padding: 0 1rem;
+}
+
+.main #content-show #return-list {
+	font-family: icon;
+	font-size: .3rem;
+	color: rgba(0, 0, 255, .5);
+	cursor: pointer;
+}
+
+.main #content-show #return-list:hover {
+	color: gold;
+}
+
+.main #content-list .idea-box {
+	position: relative;
+	padding-top: 1rem;
+	margin: 0;
+}
+
+.main #content-list .idea-box .idea-title {
+	padding: .1rem 1rem;
+	background: rgba(0, 0, 255, .4);
+	top: 0;
+	left: 0;
+	transform: skew(-30deg);
+	color: #fff;
+	margin-bottom: .3rem;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.main #content-list .idea-box .idea-title>span {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	transform: skew(30deg);
+	font-size: .3rem;
+	letter-spacing: .03rem;
+}
+
+.main #content-list .idea {
+	text-indent: 2em;
+	font-size: .28rem;
+	margin-bottom: .5rem;
+}
+
+
+/*媒体查询*/
+@media screen and (max-width: 1200px){
+	.logo>img {
+		height: 45px;
+		width: auto;
+	}
+	.navbar-header {
+		margin-top: 4px;
+	}
+	
+	.frler .frler-title{
+		font-size: .6rem;
+	}
+	
+	.frler .frler-title-english{
+		font-size: .4rem;
+	}
+	
+	.frler .frler-content .frler-second-title{
+		font-size: .5rem;
+		text-indent: 2em;
+	}
+	
+	.frler .frler-content .frler-introduction{
+		font-size: .4rem;
+	}
+	
+	.frler .frler-content .flex-layout>p{
+		font-size: .4rem;
+	}
+	
+	.main #content-show #return-list{
+		font-size: .4rem;
+	}
+	
+	.main #content-show .content-show-title>h3{
+		font-size: .5rem;
+	}
+	
+	.main #content-show .content-show-title>p{
+		font-size: .3rem;
+	}
+	
+	.main #content-show .show-news>p{
+		font-size: .35rem;
+	}
+	
+	.main #content-show .show-jobs .job-get{
+		font-size: .35rem;
+	}
+	
+	.main #content-show .show-jobs .job-msg>h4{
+		font-size: .4rem;
+	}
+	
+	.main #content-show .show-jobs .job-msg>li{
+		font-size: .35rem;
+	}
+	
+	.main .contact>div{
+		padding: .4rem;
+	}
+	
+	.main .contact>div>h4{
+		font-size: .4rem;
+	}
+	
+	.main .contact>div>span{
+		font-size: .35rem;
+		text-align: center;
+	}
+	
+	.main #content-list .idea{
+		font-size: .35rem;
+	}
+	
+	.main .second-list-content>a{
+		font-size: .35rem;
+	}
+	
+}
+
+
+@media screen and (max-width: 780px) {
+	
+	.frler .frler-title{
+		font-size: 1.1rem;
+	}
+	
+	.frler .frler-title-english{
+		font-size: .8rem;
+		margin-top: 3px;
+	}
+	
+	.frler .frler-content .frler-second-title{
+		font-size: 1rem;
+		text-indent: 1em;
+	}
+	
+	.frler .frler-content .frler-introduction{
+		font-size: .9rem;
+	}
+	
+	.main #content-show .show-news>p {
+		line-height: 1.5rem;
+		font-size: .9rem;
+		padding: 0;
+	}
+	.frler .frler-content img {
+		margin: 1rem auto;
+	}
+	
+	.main .second-content{
+		padding: 1rem;
+	}
+	
+	.main #content-list .idea-box .idea-title{
+		margin-bottom: 1rem;
+	}
+	
+	.main #content-show .content-show-title>h3,.main #content-show .show-jobs .job-msg>h4{
+		font-size: .9rem;
+	}
+	
+	.main #content-list .idea,.main .second-list-content>a,.main #content-show .show-jobs .job-get,.main #content-show .show-jobs .job-msg>li,.main #content-show #return-list{
+		font-size: .8rem;
+	}
+	
+	.frler .frler-content .flex-layout .circle-content{
+		width: 3rem;
+		height: 3rem;
+		border-width: 2px;
+	}
+	
+	.frler .frler-content .circle-content>span{
+		font-size: 2rem;
+		font-weight: 600;
+	}
+	
+	.frler .frler-content .flex-layout>h3{
+		font-size: 1rem;
+	}
+	
+	.frler .frler-content .flex-layout>p{
+		font-size: .9rem;
+	}
+	
+	.main .contact {
+		flex-direction: column;
+	}
+	.main .contact>div {
+		margin-bottom: .5rem;
+	}
+	.main .contact>div>h4{
+		font-size: .9rem;
+	}
+	.main .contact>div>span{
+		font-size: .8rem;
+	}
+	
+	.logo>img {
+		height: 45px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.navbar-header {
+		margin-top: 15px;
+	}
+	.logo>img {
+		height: 45px;
+		width: auto;
+	}
+}
